@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Open_Sans } from "next/font/google";
-import Link from "next/link";
 
 const opensans = Open_Sans({ subsets: ["latin"] });
 
@@ -13,9 +12,9 @@ export default function RootLayout({ children }) {
         </header>
         <main className="h-full flex flex-col">{children}</main>
         <footer className="flex justify-center">
-          <Link className="text-lg underline" href="/https://github.com/impucky/emo-guessr/">
+          <a className="text-lg underline" href="/https://github.com/impucky/emo-guessr/">
             Github
-          </Link>
+          </a>
         </footer>
       </body>
     </html>
