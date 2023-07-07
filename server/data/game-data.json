@@ -1,0 +1,139 @@
+[
+  {
+    "title": "Dark Souls",
+    "aliases": ["Dark Souls: Remastered", "Dark Souls: Prepare To Die Edition"],
+    "id": "beoT9BLap4Mkxqqap3du9s",
+    "released": "2011",
+    "developer": "FromSoftware",
+    "genres": "Action, RPG",
+    "emojis": "⚫🗡️🦴🔥"
+  },
+  {
+    "title": "Elden Ring",
+    "id": "dy59R3vqSRnDbWA6jR8zBc",
+    "released": "2022",
+    "developer": "FromSoftware",
+    "genres": "Action, RPG",
+    "emojis": "💍🌳🐎⚔️"
+  },
+  {
+    "title": "Stray",
+    "id": "prAEnHxKBR9T85S8MCXL2s",
+    "released": "2021",
+    "developer": "BlueTwelve",
+    "genres": "",
+    "emojis": "🐈🤖🌆"
+  },
+  {
+    "title": "God of War",
+    "id": "dWdFKNjJSVCdy6VSkuabZH",
+    "released": "2018",
+    "developer": "Santa Monica Studio",
+    "genres": "Action, Adventure",
+    "emojis": "🪓👨‍🦲🧔😡"
+  },
+  {
+    "title": "Portal",
+    "id": "8BgBuSb5rwZMb7QdGR64Ed",
+    "released": "2007",
+    "developer": "Valve Software",
+    "genres": "Action, Adventure, Puzzle",
+    "emojis": "🔵🟡"
+  },
+  {
+    "title": "Bloodborne",
+    "id": "nuxtYXST67axPAzdYFxTu9",
+    "released": "2015",
+    "developer": "FromSoftware",
+    "genres": "Action, RPG",
+    "emojis": "🩸🐺🗡️🔫"
+  },
+  {
+    "title": "Celeste",
+    "id": "1Lzs6yfunnHMkjxRpwNseq",
+    "released": "2018",
+    "developer": "Maddy Makes Games",
+    "genres": "Indie, Platformer",
+    "emojis": "👩‍🦰🧗‍♀️🏔️"
+  },
+  {
+    "title": "Hades",
+    "id": "x5GHNsPtPxvZZLXcu7SqAg",
+    "released": "2020",
+    "developer": "Supergiant Games",
+    "genres": "Action, Indie, Roguelike",
+    "emojis": "👹⚔️🏃‍♂️🔥💀🏛️"
+  },
+  {
+    "title": "Undertale",
+    "id": "qHgnAB1zGJdFRuJ2FSXbsZ",
+    "released": "2015",
+    "developer": "Toby Fox",
+    "genres": "Indie, RPG",
+    "emojis": "🧒🐐💀🌼"
+  },
+  {
+    "title": "Hollow Knight",
+    "id": "i3LfRohxx3Sef4PAKKbJ1k",
+    "released": "2017",
+    "developer": "Team Cherry",
+    "genres": "Indie, Platformer, Metroidvania",
+    "emojis": "🗡️🐛🪑🪑"
+  },
+  {
+    "title": "Minecraft",
+    "id": "xfdM6PHvFSSyPT1k9dt8Ss",
+    "released": "2011",
+    "developer": "Mojang Studios",
+    "genres": "Sandbox, Survival",
+    "emojis": "💎⛏️"
+  },
+  {
+    "title": "Among Us",
+    "id": "apxsDRrzdBPWjsPo1sHVLr",
+    "released": "2018",
+    "developer": "Innersloth",
+    "genres": "Multiplayer, Social deduction",
+    "emojis": "🚀🤫👨‍🚀🔪👨‍🚀"
+  },
+  {
+    "title": "NieR:Automata",
+    "id": "ruxqxSWmVRb8WHvrNCrBf4",
+    "released": "2017",
+    "developer": "Platinum Games",
+    "genres": "Action, RPG",
+    "emojis": "👩‍🦳🦾🤖⚔️"
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "id": "d4mZnKTobG8T24vowZzB6H",
+    "released": "2020",
+    "developer": "CD Projekt RED",
+    "genres": "Action, RPG",
+    "emojis": "🌃👨🏻‍💻👩‍💻🦾🕶️"
+  },
+  {
+    "title": "Outer Wilds",
+    "id": "hi9iPJ7evtssguGUyKKagh",
+    "released": "2019",
+    "developer": "Mobius Digital",
+    "genres": "Indie, Puzzle, Adventure",
+    "emojis": "🚀🪐⌛💥"
+  },
+  {
+    "title": "Super Mario Galaxy",
+    "id": "r1A2MouHobTkUfoSh8ujUf",
+    "released": "2007",
+    "developers": "Nintendo",
+    "genres": "Platformer",
+    "emojis": "🍄🌌⭐"
+  },
+  {
+    "title": "Fallout: New Vegas",
+    "id": "57vsLA3JGYqkbrvSCr7WJK",
+    "released": "2010",
+    "developers": "Obsidian Entertainment",
+    "genres": "Action, RPG",
+    "emojis": "🏜️🤕🔫🎰"
+  }
+]
