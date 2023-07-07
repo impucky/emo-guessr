@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         </header>
         <main className="h-full flex flex-col">{children}</main>
         <footer className="flex justify-center">
-          <a className="text-lg underline" href="/https://github.com/impucky/emo-guessr/">
+          <a className="text-lg underline" href="https://github.com/impucky/emo-guessr/">
             Github
           </a>
         </footer>
