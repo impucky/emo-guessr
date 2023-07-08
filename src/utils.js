@@ -12,8 +12,6 @@ export const searchGames = async (query) => {
 export const guessGame = (id, title) => {
   const game = gameData.find((game) => game.id === id);
 
-  console.log("guessing", id, title, game.title);
-
   if (game.title === title || game.aliases?.includes(title)) {
     return { isValid: true };
   } else return { isValid: false };

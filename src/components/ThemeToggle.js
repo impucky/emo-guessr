@@ -27,6 +27,7 @@ export default function ThemeToggle() {
         onClick={toggleTheme}
       >
         {theme === "dark" ? "🌙" : "☀️"}
+        {theme}
       </button>
     </div>
   );
