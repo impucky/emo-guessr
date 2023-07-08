@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { Providers } from "./providers";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const opensans = Open_Sans({ subsets: ["latin"] });
 
@@ -14,21 +15,7 @@ export default function RootLayout({ children }) {
         <Providers>
           <Header />
           <main className="h-full flex flex-col">{children}</main>
-          <footer className="p-2 flex justify-evenly">
-            <Link
-              className="underline"
-              href="https://github.com/impucky/emo-guessr/"
-              target="_blank"
-            >
-              Github
-            </Link>
-            <div>
-              Heavily inspired by{" "}
-              <Link className="underline" href="https://emovicon.app/">
-                Emovicon
-              </Link>
-            </div>
-          </footer>
+          <Footer />
         </Providers>
       </body>
     </html>

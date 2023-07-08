@@ -2,10 +2,11 @@ import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   return (
-    <header className="flex justify-between p-4">
-      <div className="w-1/3"></div>
-      <h1 className="p-4 w-1/3 text-2xl text-center font-black">EMOGUESSR</h1>
-      <ThemeToggle />
+    <header className="relative flex justify-center items-center p-2">
+      <h1 className="p-2 text-3xl text-center font-black">EMOGUESSR</h1>
+      <div className="absolute right-2 flex justify-end items-center">
+        <ThemeToggle />
+      </div>
     </header>
   );
 }

@@ -5,10 +5,11 @@ import { useTheme } from "next-themes";
 
 export default function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const { theme, resolvedTheme, setTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);
+    setTheme(resolvedTheme);
   }, []);
 
   const toggleTheme = () => {
@@ -21,14 +22,11 @@ export default function ThemeToggle() {
   }
 
   return (
-    <div className="w-1/3 flex justify-end items-center">
-      <button
-        className="bg-surface1 hover:bg-surface2 p-2 rounded-lg shadow-md"
-        onClick={toggleTheme}
-      >
-        {theme === "dark" ? "🌙" : "☀️"}
-        {theme}
-      </button>
-    </div>
+    <button
+      className="bg-surface1 hover:bg-surface2 p-2 rounded-lg shadow-md"
+      onClick={toggleTheme}
+    >
+      {theme === "dark" ? "🌙" : "☀️"}
+    </button>
   );
 }
