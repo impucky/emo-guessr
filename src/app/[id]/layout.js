@@ -1,13 +1,11 @@
-import { getGames } from "@/utils";
+import gameData from "../../data/game-data.json";
 
 export default function GameLayout({ children }) {
   return <>{children}</>;
 }
 
 export async function generateStaticParams() {
-  const games = await getGames();
-
-  return games.map((game) => ({
+  return gameData.map((game) => ({
     id: game.id,
   }));
 }
