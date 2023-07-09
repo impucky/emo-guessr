@@ -62,7 +62,7 @@ export default function EmoGuess({ params }) {
 
   // clean this up and implement hints
   return (
-    <div className="h-full flex flex-col items-center justify-center gap-2">
+    <div className="h-full flex flex-col items-center justify-center gap-2 bg-base">
       <div className="flex flex-col w-96 items-center">
         <div className="my-4 text-xl">{message}</div>
         <div className="m-2 p-2 h-16 w-fit rounded-xl bg-surface0 text-center text-4xl">

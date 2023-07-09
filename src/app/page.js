@@ -1,7 +1,9 @@
+"use client";
+
 import { redirect } from "next/navigation";
 
 import { getRandomGameId } from "@/utils";
 
-export default async function Home() {
+export default function Home() {
   redirect(getRandomGameId());
 }

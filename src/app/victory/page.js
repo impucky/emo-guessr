@@ -13,8 +13,8 @@ export default function Victory() {
   };
 
   return (
-    <div className="h-full flex flex-col items-center justify-center bg-crust">
-      <div className="bg-surface0 p-4 w-1/2 rounded-xl flex flex-col items-center justify-center gap-3 text-2xl font-semibold">
+    <div className="h-full flex flex-col items-center justify-center bg-base">
+      <div className="bg-surface0 p-4 w-full sm:w-3/4 md:w-1/2 rounded-xl flex flex-col items-center justify-center gap-3 text-2xl font-semibold text-center">
         <p>You&apos;ve guessed every single game 🙀</p>
         <p>Thanks for playing!</p>
         <p>
@@ -22,6 +22,7 @@ export default function Victory() {
           <Link className="underline text-blue hover:text-sky" href="https://emovicon.app/">
             Emovicon
           </Link>
+          <span className="ml-1 text-sm font-light">which I ripped off entirely</span>
         </p>
         <p className="text-xl mt-8">
           Go to the{" "}
