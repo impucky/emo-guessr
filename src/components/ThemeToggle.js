@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
+import { HalfMoon, SunLight } from "iconoir-react";
+
 export default function ThemeToggle() {
   const [mounted, setMounted] = useState(false);
   const { theme, resolvedTheme, setTheme } = useTheme();
@@ -23,10 +25,14 @@ export default function ThemeToggle() {
 
   return (
     <button
-      className="bg-surface1 hover:bg-surface2 p-2 rounded-lg shadow-md"
+      className="bg-surface0 hover:bg-surface2 p-2 rounded-full shadow-md"
       onClick={toggleTheme}
     >
-      {theme === "dark" ? "🌙" : "☀️"}
+      {theme === "dark" ? (
+        <HalfMoon height={28} width={28} strokeWidth={2} />
+      ) : (
+        <SunLight height={28} width={28} strokeWidth={2} />
+      )}
     </button>
   );
 }

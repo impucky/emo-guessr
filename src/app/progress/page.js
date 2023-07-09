@@ -1,0 +1,76 @@
+/* eslint-disable no-prototype-builtins */
+"use client";
+
+import { useRouter } from "next/navigation";
+import Link from "next/link";
+import { useState, useEffect } from "react";
+
+import gameData from "../../data/game-data.json";
+import { clearSave, getRandomGameId } from "@/utils";
+
+export default function Victory() {
+  const router = useRouter();
+
+  const [gameList, setGameList] = useState(null);
+
+  useEffect(() => {
+    const save = JSON.parse(window.localStorage.getItem("emoGuessrSave"));
+
+    const list = gameData.map((game) => {
+      const played = save && save.hasOwnProperty(game.id);
+      const guessed = played && save[game.id].guessed;
+      return {
+        id: game.id,
+        title: guessed ? game.title : "???",
+        played,
+        guessed,
+        emojis: played ? game.emojis : null,
+      };
+    });
+    setGameList(list);
+  }, []);
+
+  const startOver = () => {
+    if (clearSave()) router.push(`/${getRandomGameId()}`);
+  };
+
+  const total = gameList && gameList.filter((game) => game.guessed).length;
+
+  if (!gameList) return <div className="h-full grid place-items-center text-4xl">...</div>;
+
+  return (
+    <div className="flex flex-col items-center justify-evenly h-full py-2">
+      <h2 className="text-2xl m-2 text-center">
+        YOUR PROGRESS
+        <br />
+        {`${total} / ${gameList.length}`}
+      </h2>
+      <div className="flex flex-wrap justify-center max-w-4xl">
+        {gameList.map((game) => (
+          <Game key={game.id} game={game} />
+        ))}
+      </div>
+      <button className="text-red hover:text-maroon" onClick={startOver}>
+        START OVER
+      </button>
+    </div>
+  );
+}
+
+const Game = ({ game }) => {
+  const statusOutline = () => {
+    if (!game.played) return "";
+    if (game.played && !game.guessed) return "outline outline-red";
+    return "outline outline-green";
+  };
+
+  return (
+    <Link
+      className={`bg-surface0 hover:bg-surface1 text-xl sm:text-2xl m-1 h-20 rounded-xl w-48 sm:w-54 flex flex-col text-center items-center justify-center ${statusOutline()}`}
+      href={`/${game.id}`}
+    >
+      {game.emojis && <div>{game.emojis}</div>}
+      <div className="text-lg">{game.title}</div>
+    </Link>
+  );
+};

@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  height: 100dvh;
-  display: flex;
-  flex-direction: column;
+html, body {
+  @apply h-full
+}
+
+.main-title {
+  background: linear-gradient(90deg, #7287fd, #a67eea, #c776d3, #da73bc, #e574a5, #e77992, #e48182, #dc8a78);
 }

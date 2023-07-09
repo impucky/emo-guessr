@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useDebounce } from "@uidotdev/usehooks";
 
 import gameData from "../../data/game-data.json";
@@ -97,13 +98,13 @@ export default function EmoGuess({ params }) {
               })}
           </div>
         </div>
-        <div className="flex justify-center">
-          <button
-            className="m-4 p-2 bg-maroon hover:bg-red text-base rounded-xl shadow-md"
-            onClick={newGame}
-          >
+        <div className="flex flex-col">
+          <button className="m-4 p-2 bg-maroon text-base rounded-xl shadow-md" onClick={newGame}>
             New Game
           </button>
+          <Link className="m-4 p-2 bg-blue text-base rounded-xl shadow-md" href="/progress">
+            View your progress
+          </Link>
         </div>
       </div>
     </div>

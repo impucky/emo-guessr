@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import { GitHub } from "iconoir-react";
 export default function Footer() {
   return (
     <footer className="p-2 flex justify-center gap-8 text-sm shadow-lg bg-crust">
@@ -11,7 +11,7 @@ export default function Footer() {
         href="https://github.com/impucky/emo-guessr/"
         target="_blank"
       >
-        Github
+        <GitHub height={24} width={24} />
       </Link>
       <div>
         Heavily inspired by{" "}
