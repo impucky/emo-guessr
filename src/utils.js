@@ -61,7 +61,7 @@ export const saveGame = (id, isValid) => {
 
 export const clearSave = () => {
   if (confirm("Resetting all your guesses, are you sure?")) {
-    localStorage.removeItem("emoGuessrSave");
+    window.localStorage.removeItem("emoGuessrSave");
     return true;
   } else return false;
 };
