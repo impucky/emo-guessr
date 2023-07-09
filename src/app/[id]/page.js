@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useDebounce } from "@uidotdev/usehooks";
 
 import gameData from "../../data/game-data.json";
-import { searchGames, guessGame, getRandomGameId } from "@/utils";
+import { searchGames, guessGame, getRandomGameId, saveGame } from "@/utils";
 
 export default function EmoGuess({ params }) {
   const [query, setQuery] = useState("");
@@ -51,10 +51,11 @@ export default function EmoGuess({ params }) {
     } else {
       setMessage("Wrong :(");
     }
+    saveGame(params.id, isValid);
   };
 
   const newGame = () => {
-    router.push(`/${getRandomGameId()}`);
+    router.push(`/${getRandomGameId(params.id)}`);
   };
 
   if (!emojis) return;

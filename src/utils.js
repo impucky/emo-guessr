@@ -1,3 +1,4 @@
+/* eslint-disable no-prototype-builtins */
 import gameData from "./data/game-data.json";
 
 export const searchGames = async (query) => {
@@ -17,6 +18,50 @@ export const guessGame = (id, title) => {
   } else return { isValid: false };
 };
 
-export const getRandomGameId = () => {
-  return gameData[Math.floor(Math.random() * gameData.length)].id;
+const randomInArr = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+export const getRandomGameId = (activeGameId) => {
+  let save = window.localStorage.getItem("emoGuessrSave");
+
+  if (save) {
+    save = JSON.parse(save);
+    // unseen games first
+    let freshGames = gameData.filter((game) => {
+      if (activeGameId && activeGameId === game.id) return false;
+      return !save.hasOwnProperty(game.id);
+    });
+    // fallback to remaining games with bad guess
+    if (freshGames.length === 0) {
+      freshGames = gameData.filter((game) => {
+        if (activeGameId && activeGameId === game.id) return false;
+        return save.hasOwnProperty(game.id) && !save[game.id].guessed;
+      });
+      // cleared everything
+      if (freshGames.length === 0) {
+        return "victory";
+      }
+    }
+    return randomInArr(freshGames).id;
+  }
+
+  // no save
+  return randomInArr(gameData).id;
+};
+
+export const saveGame = (id, isValid) => {
+  let save = window.localStorage.getItem("emoGuessrSave");
+
+  if (save) {
+    save = JSON.parse(save);
+    save[id] = { guessed: isValid };
+  } else save = { [id]: { guessed: isValid } };
+
+  window.localStorage.setItem("emoGuessrSave", JSON.stringify(save));
+};
+
+export const clearSave = () => {
+  if (confirm("Resetting all your guesses, are you sure?")) {
+    localStorage.removeItem("emoGuessrSave");
+    return true;
+  } else return false;
 };
