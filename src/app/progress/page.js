@@ -16,17 +16,19 @@ export default function Victory() {
   useEffect(() => {
     const save = JSON.parse(window.localStorage.getItem("emoGuessrSave"));
 
-    const list = gameData.map((game) => {
-      const played = save && save.hasOwnProperty(game.id);
-      const guessed = played && save[game.id].guessed;
-      return {
-        id: game.id,
-        title: guessed ? game.title : "???",
-        played,
-        guessed,
-        emojis: played ? game.emojis : null,
-      };
-    });
+    const list = gameData
+      .map((game) => {
+        const played = save && save.hasOwnProperty(game.id);
+        const guessed = played && save[game.id].guessed;
+        return {
+          id: game.id,
+          title: guessed ? game.title : "???",
+          played,
+          guessed,
+          emojis: played ? game.emojis : null,
+        };
+      })
+      .sort((a, b) => a.id < b.id);
     setGameList(list);
   }, []);
 
@@ -44,7 +46,7 @@ export default function Victory() {
         FOUND:&nbsp;
         {`${total} / ${gameList.length}`}
       </h2>
-      <div className="flex flex-wrap justify-center max-w-4xl">
+      <div className="flex flex-wrap justify-center max-w-5xl">
         {gameList.map((game) => (
           <Game key={game.id} game={game} />
         ))}
@@ -61,18 +63,18 @@ export default function Victory() {
 
 const Game = ({ game }) => {
   const statusOutline = () => {
-    if (!game.played) return "";
+    if (!game.played) return;
     if (game.played && !game.guessed) return "outline outline-red";
     return "outline outline-green";
   };
 
   return (
     <Link
-      className={`bg-surface0 hover:bg-surface1 text-xl sm:text-2xl m-1 h-20 rounded-xl w-48 sm:w-54 flex flex-col text-center items-center justify-center transition ${statusOutline()}`}
+      className={`bg-surface0 hover:bg-surface1 text-xl sm:text-2xl m-1 sm:m-2 h-20 rounded-lg w-56 sm:w-56 flex flex-col text-center items-center justify-evenly transition ${statusOutline()}`}
       href={`/${game.id}`}
     >
       {game.emojis && <div>{game.emojis}</div>}
-      <div className="text-lg">{game.title}</div>
+      <div className="text-[1rem] leading-tight">{game.title}</div>
     </Link>
   );
 };

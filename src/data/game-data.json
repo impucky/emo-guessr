@@ -14,7 +14,7 @@
     "year": "2022",
     "developer": "FromSoftware",
     "genre": "Action, RPG",
-    "emojis": "💍🌳🐎⚔️"
+    "emojis": "👴💍🌳🐎⚔️🏰"
   },
   {
     "title": "Stray",
@@ -30,14 +30,14 @@
     "year": "2018",
     "developer": "Santa Monica Studio",
     "genre": "Action, Adventure",
-    "emojis": "🪓👨‍🦲🧔😡"
+    "emojis": "🪓👨🏻‍🦲🧔🏻😡"
   },
   {
     "title": "Portal",
     "id": "8BgBuSb5rwZMb7QdGR64Ed",
     "year": "2007",
     "developer": "Valve Software",
-    "genre": "Action, Adventure, Puzzle",
+    "genre": "Puzzle, Shooter",
     "emojis": "🔵🟡"
   },
   {
@@ -54,7 +54,7 @@
     "year": "2018",
     "developer": "Maddy Makes Games",
     "genre": "Indie, Platformer",
-    "emojis": "👩‍🦰🧗‍♀️🏔️"
+    "emojis": "👩🏻‍🦰🧗‍♀️🏔️"
   },
   {
     "title": "Hades",
@@ -102,7 +102,7 @@
     "year": "2017",
     "developer": "Platinum Games",
     "genre": "Action, RPG",
-    "emojis": "👩‍🦳🦾🤖⚔️"
+    "emojis": "👩🏻‍🦳🦾🤖⚔️"
   },
   {
     "title": "Cyberpunk 2077",
@@ -135,5 +135,75 @@
     "developers": "Obsidian Entertainment",
     "genre": "Action, RPG",
     "emojis": "🏜️🤕🔫🎰"
+  },
+  {
+    "title": "Sekiro: Shadows Die Twice",
+    "id": "ouPcVEq6VoBEsthXCmq33Q",
+    "year": "2019",
+    "developers": "FromSoftware",
+    "genre": "Action, Adventure",
+    "emojis": "🥷🦾🐺👹🐍🦍"
+  },
+  {
+    "title": "The Last of Us",
+    "aliases": ["The Last of Us Remastered"],
+    "id": "vo2Ky9EAMxo2U8WfjNS4Nf",
+    "year": "2013",
+    "developers": "Naughty Dog",
+    "genre": "Action, Shooter",
+    "emojis": "🧔🏻👧🏻🦠🍄🧟"
+  },
+  {
+    "title": "The Elder Scrolls V: Skyrim",
+    "aliases": [
+      "The Elder Scrolls V: Skyrim Special Edition",
+      "The Elder Scrolls V: Skyrim Legendary Edition",
+      "The Elder Scrolls V: Skyrim VR"
+    ],
+    "id": "6TiktqZRwit9Uw7X3uJRHH",
+    "year": "2011",
+    "developers": "Bethesda Game Studios",
+    "genre": "Action, RPG",
+    "emojis": "🗣️🐉🏔️"
+  },
+  {
+    "title": "Hotline Miami",
+    "id": "tFtdB6Xsno7vxkFeNvk3sz",
+    "year": "2012",
+    "developers": "Dennaton Games",
+    "genre": "Action, Indie, Arcade",
+    "emojis": "🐔🐷🐯👊🩸"
+  },
+  {
+    "title": "Doki Doki Literature Club!",
+    "id": "tMbUVQVp7H4NPjExWwHmfJ",
+    "year": "2017",
+    "developers": "Team Salvato",
+    "genre": "Visual Novel, Indie",
+    "emojis": "🏫📚💑😨"
+  },
+  {
+    "title": "Deathloop",
+    "id": "1ghgTbgdAJds4S2J9ni9Zw",
+    "year": "2021",
+    "developers": "Arkane Studios",
+    "genre": "Shooter, Immersive Sim",
+    "emojis": "🧔🏾🔫💀⏳🔁👩🏾‍🦱"
+  },
+  {
+    "title": "Rocket League",
+    "id": "crtpY4ArBLE88mFs7HqaLo",
+    "year": "2015",
+    "developers": "Psyonix",
+    "genre": "Sports, Arcade",
+    "emojis": "🥅⚽🏎️🚀"
+  },
+  {
+    "title": "Disco Elysium",
+    "id": "uNCyjBwm2jKKQUhQ5ArcBc",
+    "year": "2019",
+    "developers": "ZA/UM",
+    "genre": "RPG",
+    "emojis": "🕵🏻🧔🏻🍾🧠🎲🏙️"
   }
 ]

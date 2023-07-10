@@ -14,7 +14,9 @@ const opensans = Open_Sans({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning>
-      <body className={`${opensans.className} flex flex-col latte dark:frappe bg-base text-text`}>
+      <body
+        className={`${opensans.className} flex flex-col latte dark:frappe bg-base text-text transition`}
+      >
         <Providers>
           <Header />
           <main className="grow flex flex-col">{children}</main>

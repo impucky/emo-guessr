@@ -28,7 +28,7 @@ export default function GameSearch({ tryGuess }) {
   };
 
   return (
-    <div className="p-2 w-full max-w-sm">
+    <div className="relative z-10 p-2 w-full max-w-sm">
       <Combobox value={selectedGame} onChange={onGameSelect}>
         {({ open }) => (
           <div className="relative">
@@ -60,7 +60,7 @@ export default function GameSearch({ tryGuess }) {
                   className="absolute w-full mt-2 rounded-lg overflow-hidden"
                   static
                 >
-                  <div className="max-h-[35vh] z-index-1 overflow-scroll">
+                  <div className="max-h-[35vh] sm:max-h-none overflow-y-auto">
                     {results.map((result) => (
                       <Combobox.Option
                         key={result}
