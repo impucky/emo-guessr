@@ -11,12 +11,14 @@ export default function ThemeToggle() {
 
   useEffect(() => {
     setMounted(true);
-    setTheme(resolvedTheme);
   }, []);
 
   const toggleTheme = () => {
     if (theme === "light") setTheme("dark");
     if (theme === "dark") setTheme("light");
+    if (theme === "system" || theme === "undefined") {
+      setTheme(resolvedTheme === "dark" ? "light" : "dark");
+    }
   };
 
   if (!mounted) {
@@ -24,10 +26,7 @@ export default function ThemeToggle() {
   }
 
   return (
-    <button
-      className="bg-surface0 hover:bg-surface2 p-2 rounded-full shadow-md"
-      onClick={toggleTheme}
-    >
+    <button className="hover:text-yellow transition" onClick={toggleTheme}>
       {theme === "dark" ? (
         <HalfMoon height={28} width={28} strokeWidth={2} />
       ) : (

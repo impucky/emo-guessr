@@ -15,6 +15,7 @@ module.exports = {
   },
   darkMode: "class",
   plugins: [
+    require("@headlessui/tailwindcss"),
     require("@catppuccin/tailwindcss")({
       defaultFlavour: "latte",
     }),

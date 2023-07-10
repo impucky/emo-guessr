@@ -40,9 +40,8 @@ export default function Victory() {
 
   return (
     <div className="flex flex-col items-center justify-evenly h-full py-2">
-      <h2 className="text-2xl m-2 text-center">
-        YOUR PROGRESS
-        <br />
+      <h2 className="text-3xl m-2 text-center">
+        FOUND:&nbsp;
         {`${total} / ${gameList.length}`}
       </h2>
       <div className="flex flex-wrap justify-center max-w-4xl">
@@ -50,7 +49,10 @@ export default function Victory() {
           <Game key={game.id} game={game} />
         ))}
       </div>
-      <button className="text-red hover:text-maroon" onClick={startOver}>
+      <button
+        className="p-2 rounded-xl text-red hover:text-maroon border border-red hover:border-maroon transition"
+        onClick={startOver}
+      >
         START OVER
       </button>
     </div>
@@ -66,7 +68,7 @@ const Game = ({ game }) => {
 
   return (
     <Link
-      className={`bg-surface0 hover:bg-surface1 text-xl sm:text-2xl m-1 h-20 rounded-xl w-48 sm:w-54 flex flex-col text-center items-center justify-center ${statusOutline()}`}
+      className={`bg-surface0 hover:bg-surface1 text-xl sm:text-2xl m-1 h-20 rounded-xl w-48 sm:w-54 flex flex-col text-center items-center justify-center transition ${statusOutline()}`}
       href={`/${game.id}`}
     >
       {game.emojis && <div>{game.emojis}</div>}
