@@ -18,20 +18,20 @@ export default function Victory() {
         <p>You&apos;ve guessed every single game 🙀</p>
         <p>Thanks for playing!</p>
         <p>
-          If you want more, check out{" "}
+          If you want more, check out&nbsp;
           <Link className="underline text-blue hover:text-sky" href="https://emovicon.app/">
             Emovicon
           </Link>
           <span className="ml-1 text-sm font-light">which I ripped off entirely</span>
         </p>
         <p className="text-xl mt-8">
-          Go to the{" "}
-          <Link className="underline text-blue hover:text-sky" href="#">
+          Go to the&nbsp;
+          <Link className="underline text-blue hover:text-sky" href="/progress">
             full list of games
           </Link>
         </p>
         <p className="text-xl">
-          Or maybe you want to{" "}
+          Or maybe you want to&nbsp;
           <button className="text-red hover:text-maroon" onClick={startOver}>
             start over
           </button>

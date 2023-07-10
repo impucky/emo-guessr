@@ -60,15 +60,17 @@ export default function GameSearch({ tryGuess }) {
                   className="absolute w-full mt-2 rounded-lg overflow-hidden"
                   static
                 >
-                  {results.map((result) => (
-                    <Combobox.Option
-                      key={result}
-                      value={result}
-                      className="box-border cursor-pointer p-2 bg-surface0 ui-active:bg-surface2 first:border-none border-t border-crust ui-active:border-surface2"
-                    >
-                      {result}
-                    </Combobox.Option>
-                  ))}
+                  <div className="max-h-[35vh] z-index-1 overflow-scroll">
+                    {results.map((result) => (
+                      <Combobox.Option
+                        key={result}
+                        value={result}
+                        className="box-border cursor-pointer p-2 bg-surface0 ui-active:bg-surface2 first:border-none border-t border-crust ui-active:border-surface2"
+                      >
+                        {result}
+                      </Combobox.Option>
+                    ))}
+                  </div>
                 </Combobox.Options>
               )}
             </Transition>
