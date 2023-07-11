@@ -6,7 +6,7 @@
     "year": "2011",
     "developer": "FromSoftware",
     "genre": "Action, RPG",
-    "emojis": "⚫🗡️🦴🔥"
+    "emojis": ["⚫", "🗡️", "🦴", "🔥"]
   },
   {
     "title": "Elden Ring",
@@ -14,7 +14,7 @@
     "year": "2022",
     "developer": "FromSoftware",
     "genre": "Action, RPG",
-    "emojis": "👴💍🌳🐎⚔️🏰"
+    "emojis": ["👴", "💍", "🌳", "🐎", "⚔️", "🏰"]
   },
   {
     "title": "Stray",
@@ -22,7 +22,7 @@
     "year": "2021",
     "developer": "BlueTwelve",
     "genre": "",
-    "emojis": "🐈🤖🌆"
+    "emojis": ["🐈", "🤖", "🌆"]
   },
   {
     "title": "God of War",
@@ -30,7 +30,7 @@
     "year": "2018",
     "developer": "Santa Monica Studio",
     "genre": "Action, Adventure",
-    "emojis": "🪓👨🏻‍🦲🧔🏻😡"
+    "emojis": ["🪓", "👨🏻‍🦲", "🧔🏻", "😡"]
   },
   {
     "title": "Portal",
@@ -38,7 +38,7 @@
     "year": "2007",
     "developer": "Valve Software",
     "genre": "Puzzle, Shooter",
-    "emojis": "🔵🟡"
+    "emojis": ["🔵", "🟡"]
   },
   {
     "title": "Bloodborne",
@@ -46,7 +46,7 @@
     "year": "2015",
     "developer": "FromSoftware",
     "genre": "Action, RPG",
-    "emojis": "🩸🐺🗡️🔫🧥"
+    "emojis": ["🩸", "🐺", "🗡️", "🔫", "🧥"]
   },
   {
     "title": "Celeste",
@@ -54,7 +54,7 @@
     "year": "2018",
     "developer": "Maddy Makes Games",
     "genre": "Indie, Platformer",
-    "emojis": "👩🏻‍🦰🧗‍♀️🏔️"
+    "emojis": ["👩🏻‍🦰", "🧗‍♀️", "🏔️"]
   },
   {
     "title": "Hades",
@@ -62,7 +62,7 @@
     "year": "2020",
     "developer": "Supergiant Games",
     "genre": "Action, Indie, Roguelike",
-    "emojis": "👹⚔️🏃‍♂️🔥💀🏛️"
+    "emojis": ["👹", "⚔️", "🏃‍♂️", "🔥", "💀", "🏛️"]
   },
   {
     "title": "Undertale",
@@ -70,7 +70,7 @@
     "year": "2015",
     "developer": "Toby Fox",
     "genre": "Indie, RPG",
-    "emojis": "🧒🐐💀🌼"
+    "emojis": ["🧒", "🐐", "💀", "🌼"]
   },
   {
     "title": "Hollow Knight",
@@ -78,7 +78,7 @@
     "year": "2017",
     "developer": "Team Cherry",
     "genre": "Indie, Platformer, Metroidvania",
-    "emojis": "🗡️🐛🪑🪑"
+    "emojis": ["🗡️", "🐛", "🪑", "🪑"]
   },
   {
     "title": "Minecraft",
@@ -86,7 +86,7 @@
     "year": "2011",
     "developer": "Mojang Studios",
     "genre": "Sandbox, Survival",
-    "emojis": "💎⛏️"
+    "emojis": ["💎", "⛏️"]
   },
   {
     "title": "Among Us",
@@ -94,7 +94,7 @@
     "year": "2018",
     "developer": "Innersloth",
     "genre": "Multiplayer, Social deduction",
-    "emojis": "🚀🤫👨‍🚀🔪👨‍🚀"
+    "emojis": ["🚀", "🤫", "👨‍🚀", "🔪", "👨‍🚀"]
   },
   {
     "title": "NieR:Automata",
@@ -102,7 +102,7 @@
     "year": "2017",
     "developer": "Platinum Games",
     "genre": "Action, RPG",
-    "emojis": "👩🏻‍🦳🦾🤖⚔️"
+    "emojis": ["👩🏻‍🦳", "🦾", "🤖", "⚔️"]
   },
   {
     "title": "Cyberpunk 2077",
@@ -110,7 +110,7 @@
     "year": "2020",
     "developer": "CD Projekt RED",
     "genre": "Action, RPG",
-    "emojis": "🌃👨🏻‍💻👩‍💻🦾🕶️"
+    "emojis": ["🌃", "👨🏻‍💻", "👩‍💻", "🦾", "🕶️"]
   },
   {
     "title": "Outer Wilds",
@@ -118,7 +118,7 @@
     "year": "2019",
     "developer": "Mobius Digital",
     "genre": "Indie, Puzzle, Adventure",
-    "emojis": "🚀🪐⌛💥"
+    "emojis": ["🚀", "🪐", "⌛", "💥"]
   },
   {
     "title": "Super Mario Galaxy",
@@ -126,7 +126,7 @@
     "year": "2007",
     "developers": "Nintendo",
     "genre": "Platformer",
-    "emojis": "🍄🌌⭐"
+    "emojis": ["🍄", "🌌", "⭐"]
   },
   {
     "title": "Fallout: New Vegas",
@@ -134,7 +134,7 @@
     "year": "2010",
     "developers": "Obsidian Entertainment",
     "genre": "Action, RPG",
-    "emojis": "🏜️🤕🔫🎰"
+    "emojis": ["🏜️", "🤕", "🔫", "🎰"]
   },
   {
     "title": "Sekiro: Shadows Die Twice",
@@ -142,7 +142,7 @@
     "year": "2019",
     "developers": "FromSoftware",
     "genre": "Action, Adventure",
-    "emojis": "🥷🦾🐺👹🐍🦍"
+    "emojis": ["🥷", "🦾", "🐺", "👹", "🐍", "🦍"]
   },
   {
     "title": "The Last of Us",
@@ -151,7 +151,7 @@
     "year": "2013",
     "developers": "Naughty Dog",
     "genre": "Action, Shooter",
-    "emojis": "🧔🏻👧🏻🦠🍄🧟"
+    "emojis": ["🧔🏻", "👧🏻", "🦠", "🍄", "🧟"]
   },
   {
     "title": "The Elder Scrolls V: Skyrim",
@@ -164,7 +164,7 @@
     "year": "2011",
     "developers": "Bethesda Game Studios",
     "genre": "Action, RPG",
-    "emojis": "🗣️🐉🏔️"
+    "emojis": ["🗣️", "🐉", "🏔️"]
   },
   {
     "title": "Hotline Miami",
@@ -172,7 +172,7 @@
     "year": "2012",
     "developers": "Dennaton Games",
     "genre": "Action, Indie, Arcade",
-    "emojis": "🐔🐷🐯👊🩸"
+    "emojis": ["🐔", "🐷", "🐯", "👊", "🩸"]
   },
   {
     "title": "Doki Doki Literature Club!",
@@ -180,7 +180,7 @@
     "year": "2017",
     "developers": "Team Salvato",
     "genre": "Visual Novel, Indie",
-    "emojis": "🏫📚💑😨"
+    "emojis": ["🏫", "📚", "💑", "😨"]
   },
   {
     "title": "Deathloop",
@@ -188,7 +188,7 @@
     "year": "2021",
     "developers": "Arkane Studios",
     "genre": "Shooter, Immersive Sim",
-    "emojis": "🧔🏾🔫💀⏳🔁👩🏾‍🦱"
+    "emojis": ["🧔🏾", "🔫", "💀", "⏳", "🔁", "👩🏾‍🦱"]
   },
   {
     "title": "Rocket League",
@@ -196,7 +196,7 @@
     "year": "2015",
     "developers": "Psyonix",
     "genre": "Sports, Arcade",
-    "emojis": "🥅⚽🏎️🚀"
+    "emojis": ["🥅", "⚽", "🏎️", "🚀"]
   },
   {
     "title": "Disco Elysium",
@@ -204,6 +204,6 @@
     "year": "2019",
     "developers": "ZA/UM",
     "genre": "RPG",
-    "emojis": "🕵🏻🧔🏻🍾🧠🎲🏙️"
+    "emojis": ["🕵🏻", "🧔🏻", "🍾", "🧠", "🎲", "🏙️"]
   }
 ]

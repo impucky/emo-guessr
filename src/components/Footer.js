@@ -2,7 +2,7 @@ import Link from "next/link";
 import { GitHub } from "iconoir-react";
 export default function Footer() {
   return (
-    <footer className="p-2 flex justify-center gap-8 text-sm shadow-lg bg-surface0 dark:bg-crust">
+    <footer className="p-2 flex justify-center gap-4 text-sm shadow-lg bg-surface0 dark:bg-crust">
       <span className="flex-1 text-right">
         <i>It&apos;s not a phase, mom!</i>
       </span>

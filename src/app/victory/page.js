@@ -1,17 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
-import { clearSave, getRandomGameId } from "@/utils";
+import ResetButton from "@/components/ResetButton";
 
 export default function Victory() {
-  const router = useRouter();
-
-  const startOver = () => {
-    if (clearSave()) router.push(`/${getRandomGameId()}`);
-  };
-
   return (
     <div className="h-full flex flex-col items-center justify-center bg-base">
       <div className="bg-surface0 p-4 w-full sm:w-3/4 md:w-1/2 rounded-xl flex flex-col items-center justify-center gap-3 text-2xl font-semibold text-center">
@@ -32,10 +25,7 @@ export default function Victory() {
         </p>
         <p className="text-xl">
           Or maybe you want to&nbsp;
-          <button className="text-red hover:text-maroon" onClick={startOver}>
-            start over
-          </button>
-          ?
+          <ResetButton text="start over" /> ?
         </p>
       </div>
     </div>
