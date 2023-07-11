@@ -9,11 +9,11 @@ const Emojis = ({ emojis, validGuess }) => {
       : "";
 
   return (
-    <div className="min-h-16 ">
+    <div className="h-24">
       <Transition
         appear
         show={emojis.length > 0}
-        className={`flex items-center justify-center m-2 p-4 w-fit rounded-xl bg-surface0 text-center text-4xl shadow-md ${statusStyle}`}
+        className={`flex items-center justify-center m-2 p-4 w-fit rounded-xl bg-surface0 cursor-default text-center text-4xl shadow-md ${statusStyle}`}
         enter="transition-opacity duration-500"
         enterFrom="opacity-0"
         enterTo="opacity-100"
@@ -25,7 +25,6 @@ const Emojis = ({ emojis, validGuess }) => {
           return (
             <Transition.Child
               key={emoji}
-              appear
               as="span"
               style={{ transitionDelay: `${(i + 1) * 150}ms` }}
               enter={`transition-opacity duration-500`}

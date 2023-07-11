@@ -124,7 +124,7 @@
     "title": "Super Mario Galaxy",
     "id": "r1A2MouHobTkUfoSh8ujUf",
     "year": "2007",
-    "developers": "Nintendo",
+    "developer": "Nintendo",
     "genre": "Platformer",
     "emojis": ["🍄", "🌌", "⭐"]
   },
@@ -132,7 +132,7 @@
     "title": "Fallout: New Vegas",
     "id": "57vsLA3JGYqkbrvSCr7WJK",
     "year": "2010",
-    "developers": "Obsidian Entertainment",
+    "developer": "Obsidian Entertainment",
     "genre": "Action, RPG",
     "emojis": ["🏜️", "🤕", "🔫", "🎰"]
   },
@@ -140,7 +140,7 @@
     "title": "Sekiro: Shadows Die Twice",
     "id": "ouPcVEq6VoBEsthXCmq33Q",
     "year": "2019",
-    "developers": "FromSoftware",
+    "developer": "FromSoftware",
     "genre": "Action, Adventure",
     "emojis": ["🥷", "🦾", "🐺", "👹", "🐍", "🦍"]
   },
@@ -149,7 +149,7 @@
     "aliases": ["The Last of Us Remastered"],
     "id": "vo2Ky9EAMxo2U8WfjNS4Nf",
     "year": "2013",
-    "developers": "Naughty Dog",
+    "developer": "Naughty Dog",
     "genre": "Action, Shooter",
     "emojis": ["🧔🏻", "👧🏻", "🦠", "🍄", "🧟"]
   },
@@ -162,7 +162,7 @@
     ],
     "id": "6TiktqZRwit9Uw7X3uJRHH",
     "year": "2011",
-    "developers": "Bethesda Game Studios",
+    "developer": "Bethesda Game Studios",
     "genre": "Action, RPG",
     "emojis": ["🗣️", "🐉", "🏔️"]
   },
@@ -170,7 +170,7 @@
     "title": "Hotline Miami",
     "id": "tFtdB6Xsno7vxkFeNvk3sz",
     "year": "2012",
-    "developers": "Dennaton Games",
+    "developer": "Dennaton Games",
     "genre": "Action, Indie, Arcade",
     "emojis": ["🐔", "🐷", "🐯", "👊", "🩸"]
   },
@@ -178,7 +178,7 @@
     "title": "Doki Doki Literature Club!",
     "id": "tMbUVQVp7H4NPjExWwHmfJ",
     "year": "2017",
-    "developers": "Team Salvato",
+    "developer": "Team Salvato",
     "genre": "Visual Novel, Indie",
     "emojis": ["🏫", "📚", "💑", "😨"]
   },
@@ -186,7 +186,7 @@
     "title": "Deathloop",
     "id": "1ghgTbgdAJds4S2J9ni9Zw",
     "year": "2021",
-    "developers": "Arkane Studios",
+    "developer": "Arkane Studios",
     "genre": "Shooter, Immersive Sim",
     "emojis": ["🧔🏾", "🔫", "💀", "⏳", "🔁", "👩🏾‍🦱"]
   },
@@ -194,7 +194,7 @@
     "title": "Rocket League",
     "id": "crtpY4ArBLE88mFs7HqaLo",
     "year": "2015",
-    "developers": "Psyonix",
+    "developer": "Psyonix",
     "genre": "Sports, Arcade",
     "emojis": ["🥅", "⚽", "🏎️", "🚀"]
   },
@@ -202,7 +202,7 @@
     "title": "Disco Elysium",
     "id": "uNCyjBwm2jKKQUhQ5ArcBc",
     "year": "2019",
-    "developers": "ZA/UM",
+    "developer": "ZA/UM",
     "genre": "RPG",
     "emojis": ["🕵🏻", "🧔🏻", "🍾", "🧠", "🎲", "🏙️"]
   }

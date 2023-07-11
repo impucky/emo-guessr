@@ -12,7 +12,7 @@ const NewGameButton = ({ currentGameId }) => {
 
   return (
     <button
-      className="flex w-fit gap-2 m-4 p-2 bg-lavender hover:brightness-125 rounded-xl shadow-md"
+      className="flex w-fit gap-2 p-2 bg-lavender hover:brightness-125 transition rounded-xl shadow-md text-base text-lg"
       onClick={newGame}
     >
       Next game

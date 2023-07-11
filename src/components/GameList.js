@@ -9,7 +9,7 @@ const GameList = ({ list }) => {
       <Transition
         show={list.length > 0}
         appear
-        className="h-full flex flex-col items-center justify-evenly py-2"
+        className="h-full flex flex-col items-center justify-center py-2"
         enter="transition-opacity duration-150"
         enterFrom="opacity-0"
         enterTo="opacity-100"
@@ -17,7 +17,7 @@ const GameList = ({ list }) => {
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
-        <h2 className="text-3xl m-2 text-center">
+        <h2 className={`text-3xl m-4 text-center ${total === list.length && "text-green"}`}>
           FOUND:&nbsp;
           {`${total} / ${list.length}`}
         </h2>

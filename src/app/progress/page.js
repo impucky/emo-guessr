@@ -30,7 +30,7 @@ export default function Victory() {
   }, []);
 
   return (
-    <div className="h-full flex flex-col items-center py-2">
+    <div className="h-full flex flex-col items-center justify-around py-4">
       <GameList list={gameList} />
       <ResetButton text="START OVER" outline icon />
     </div>
