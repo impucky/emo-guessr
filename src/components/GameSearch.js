@@ -12,7 +12,7 @@ export default function GameSearch({ tryGuess }) {
 
   useEffect(() => {
     const search = async () => {
-      let results = [];
+      let results = ["..."];
       if (debouncedQuery) {
         results = await searchGames(debouncedQuery);
       }
@@ -48,7 +48,7 @@ export default function GameSearch({ tryGuess }) {
               />
             </Combobox.Button>
             <Transition
-              enter="transition duration-100 ease-out"
+              enter="transition duration-300 ease-out"
               enterFrom="transform scale-95 opacity-0"
               enterTo="transform scale-100 opacity-100"
               leave="transition duration-75 ease-out"
@@ -57,7 +57,7 @@ export default function GameSearch({ tryGuess }) {
             >
               {open && (
                 <Combobox.Options
-                  className="absolute w-full mt-2 rounded-lg overflow-hidden"
+                  className="absolute w-full mt-2 rounded-lg overflow-hidden text-center"
                   static
                 >
                   <div className="max-h-[35vh] sm:max-h-none overflow-y-auto">
@@ -66,6 +66,7 @@ export default function GameSearch({ tryGuess }) {
                         key={result}
                         value={result}
                         className="box-border cursor-pointer p-2 bg-surface0 ui-active:bg-surface2 first:border-none border-t border-crust ui-active:border-surface2"
+                        disabled={result === "..."}
                       >
                         {result}
                       </Combobox.Option>
