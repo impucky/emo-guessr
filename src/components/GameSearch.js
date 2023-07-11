@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useDebounce } from "@uidotdev/usehooks";
 import { Combobox, Transition } from "@headlessui/react";
 
+import LoadingDots from "./LoadingDots";
 import { searchGames } from "@/utils";
 
 export default function GameSearch({ tryGuess }) {
@@ -18,7 +19,6 @@ export default function GameSearch({ tryGuess }) {
       }
       setResults(results);
     };
-
     search();
   }, [debouncedQuery]);
 
@@ -68,7 +68,7 @@ export default function GameSearch({ tryGuess }) {
                         className="box-border cursor-pointer p-2 bg-surface0 ui-active:bg-surface2 first:border-none border-t border-crust ui-active:border-surface2"
                         disabled={result === "..."}
                       >
-                        {result}
+                        {result === "..." ? <LoadingDots /> : result}
                       </Combobox.Option>
                     ))}
                   </div>

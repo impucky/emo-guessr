@@ -9,3 +9,12 @@ html, body {
 .main-title {
   background: linear-gradient(90deg, #7287fd, #a67eea, #c776d3, #da73bc, #e574a5, #e77992, #e48182, #dc8a78);
 }
+
+@keyframes loading {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
