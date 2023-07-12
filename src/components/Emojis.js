@@ -4,8 +4,6 @@ import { useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import JSConfetti from "js-confetti";
 
-import LoadingDots from "@/components/LoadingDots";
-
 const Emojis = ({ emojis, status }) => {
   useEffect(() => {}, []);
 
@@ -28,9 +26,9 @@ const Emojis = ({ emojis, status }) => {
   return (
     <div className="h-24 mb-8">
       <div className="h-10 text-lg font-semibold text-center">
-        {status === "pending" && <LoadingDots />}
-        {status === "valid" && <span className="text-green">{"CORRECT! 🙀"}</span>}
-        {status === "wrong" && <span className="text-red">{"WRONG... 😿"}</span>}
+        {status === "pending" && <span>🤔</span>}
+        {status === "valid" && <span className="text-green">CORRECT! 🙀</span>}
+        {status === "wrong" && <span className="text-red">WRONG... 😿</span>}
       </div>
       <div
         className={`flex items-center justify-center m-2 p-4 w-fit rounded-xl bg-surface0 cursor-default text-center text-4xl shadow-md transition-[outline] ${statusStyle}`}
