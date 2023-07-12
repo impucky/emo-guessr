@@ -94,7 +94,7 @@
     "year": "2018",
     "developer": "Innersloth",
     "genre": "Multiplayer, Social deduction",
-    "emojis": ["🚀", "🤫", "👨‍🚀", "🔪", "👨‍🚀"]
+    "emojis": ["🚀", "🤫", "📮", "🔪", "📮"]
   },
   {
     "title": "NieR:Automata",
@@ -134,7 +134,7 @@
     "year": "2010",
     "developer": "Obsidian Entertainment",
     "genre": "Action, RPG",
-    "emojis": ["🏜️", "🤕", "🔫", "🎰"]
+    "emojis": ["☢️", "🏜️", "🤕", "🔫", "🎰"]
   },
   {
     "title": "Sekiro: Shadows Die Twice",
@@ -172,7 +172,7 @@
     "year": "2012",
     "developer": "Dennaton Games",
     "genre": "Action, Indie, Arcade",
-    "emojis": ["🐔", "🐷", "🐯", "👊", "🩸"]
+    "emojis": ["☎️", "🐔", "🐷", "🐯", "👊", "🩸"]
   },
   {
     "title": "Doki Doki Literature Club!",
@@ -188,7 +188,7 @@
     "year": "2021",
     "developer": "Arkane Studios",
     "genre": "Shooter, Immersive Sim",
-    "emojis": ["🧔🏾", "🔫", "💀", "⏳", "🔁", "👩🏾‍🦱"]
+    "emojis": ["🧔🏿", "🔫", "💀", "⏳", "🔁", "👩🏿‍🦱"]
   },
   {
     "title": "Rocket League",
@@ -205,5 +205,425 @@
     "developer": "ZA/UM",
     "genre": "RPG",
     "emojis": ["🕵🏻", "🧔🏻", "🍾", "🧠", "🎲", "🏙️"]
+  },
+  {
+    "title": "Metro 2033",
+    "aliases": ["Metro 2033 Redux"],
+    "id": "m62zeQ3ggGUx5bEE4a4jtH",
+    "year": "2010",
+    "developer": "4A Games",
+    "genre": "Shooter, Survival horror",
+    "emojis": ["☢️", "🚇", "🤿", "🔫"]
+  },
+  {
+    "title": "The Legend of Zelda: The Wind Waker",
+    "aliases": ["The Legend of Zelda: The Wind Waker HD"],
+    "id": "dD3MwgD99xZCiMCYUNSqVT",
+    "year": "2002",
+    "developer": "Nintendo",
+    "genre": "Action, Adventure",
+    "emojis": ["🧝", "💨", "🛶", "🦁", "🏝️"]
+  },
+  {
+    "title": "The Legend of Zelda: Majora's Mask",
+    "aliases": ["The Legend of Zelda: Majora's Mask 3D"],
+    "id": "dwoTLPLcTKFWVbZyaAUWz2",
+    "year": "2000",
+    "developer": "Nintendo",
+    "genre": "Action, Adventure",
+    "emojis": ["🧝", "🕰️", "🔁", "🎭", "🌕"]
+  },
+  {
+    "title": "BioShock",
+    "aliases": ["BioShock Remastered"],
+    "id": "mRvkMoEDtCMS4aUGCn2nhg",
+    "year": "2007",
+    "developer": "2K Games",
+    "genre": "Shooter",
+    "emojis": ["🌃", "🌊", "🤿", "🔫", "💉", "⚡"]
+  },
+  {
+    "title": "Assassin's Creed",
+    "aliases": ["Assassin's Creed: Director's Cut Edition"],
+    "id": "w6EqkRJDkZ3pkhpnyWsuG3",
+    "year": "2007",
+    "developer": "Ubisoft Montreal",
+    "genre": "Action, Stealth",
+    "emojis": ["🥷", "🗡️", "🏃", "🧗", "🕌", "🌴"]
+  },
+  {
+    "title": "The Binding of Isaac",
+    "aliases": ["The Binding of Isaac: Rebirth", "The Binding of Isaac: Afterbirth+"],
+    "id": "rMLV8hNdZ28khcPpdFAwri",
+    "year": "2011",
+    "developer": "Edmund McMillen, Florian Himsl",
+    "genre": "Action, Roguelike",
+    "emojis": ["👶", "😭", "💩", "🪰", "👵", "😡"]
+  },
+  {
+    "title": "Hitman: Blood Money",
+    "id": "ddMinMu6eMqcBQHofgKkjo",
+    "year": "2006",
+    "developer": "IO Interactive",
+    "genre": "Stealth",
+    "emojis": ["👨🏻‍🦲", "🕴️", "🔫", "🩸", "💰"]
+  },
+  {
+    "title": "Kingdom Hearts",
+    "aliases": ["KINGDOM HEARTS FINAL MIX", "Kingdom Hearts HD 1.5 ReMIX"],
+    "id": "snuL1WK7kYcjMhUKXBNqq6",
+    "year": "2002",
+    "developer": "Square",
+    "genre": "Action, RPG",
+    "emojis": ["🗝", "👑", "🖤", "👦", "🦆", "🐶"]
+  },
+  {
+    "title": "The Sims",
+    "aliases": ["The Sims 2", "The Sims 3", "The Sims 4"],
+    "id": "eK6PF1CAwNYJJrvqoUps76",
+    "year": "2000",
+    "developer": "Maxis",
+    "genre": "Simulation",
+    "emojis": ["👨‍👩‍👧", "♦️", "🏠", "🛏️", "🍽️", "🛀🏼"]
+  },
+  {
+    "title": "Wordle",
+    "id": "j67xbnKtswsbV24QSTRdeA",
+    "year": "2021",
+    "developer": "Josh Wardle",
+    "genre": "Puzzle",
+    "emojis": ["⬜", "⬜", "🟨", "🟩", "🟨"]
+  },
+  {
+    "title": "Plants vs. Zombies",
+    "aliases": ["Plants vs. Zombies GOTY Edition"],
+    "id": "vPLDqSBwYX8fJrkn3H3k6W",
+    "year": "2009",
+    "developer": "PopCap Games",
+    "genre": "Tower Defense, Strategy",
+    "emojis": ["🌻", "🔫", "💥", "🧟", "🧟‍♀️"]
+  },
+  {
+    "title": "Silent Hill",
+    "id": "7ifJ39aiEsbQ6ALcmsUdJX",
+    "year": "1999",
+    "developer": "Team Silent",
+    "genre": "Survival horror",
+    "emojis": ["🤫", "⛰️", "👱‍♀️", "😱"]
+  },
+  {
+    "title": "Counter-Strike",
+    "aliases": ["Counter-Strike: Source", "Counter-Strike: Global Offensive"],
+    "id": "pjFg7wUABkVTXAjdeSNi43",
+    "year": "2000",
+    "developer": "Valve",
+    "genre": "Shooter",
+    "emojis": ["🧔", "🔫", "👮", "💣", "🅰️", "🅱️"]
+  },
+  {
+    "title": "Okami",
+    "aliases": ["OKAMI HD / 大神 絶景版"],
+    "id": "63mQf3JUBaR91nia85Gnzd",
+    "year": "2006",
+    "developer": "Clover Studio",
+    "genre": "Action, Adventure",
+    "emojis": ["🐺", "🖌️", "⛩️"]
+  },
+  {
+    "title": "Phoenix Wright: Ace Attorney",
+    "id": "gV35xTBzR6QHy7XYPcYsGW",
+    "year": "2001",
+    "developer": "Capcom",
+    "genre": "Visual Novel, Adventure ",
+    "emojis": ["👨‍⚖️", "🗣️", "👉", "🗯", "❗", "🕵️‍♂️"]
+  },
+  {
+    "title": "Life is Strange",
+    "id": "oZsE3nJxoqW73Rn1uM85da",
+    "year": "2015",
+    "developer": "Don't Nod Entertainment",
+    "genre": "Adventure, Narrative",
+    "emojis": ["👩🏻", "🏫", "⏳", "⏪", "🎭"]
+  },
+  {
+    "title": "Pac-Man",
+    "id": "nGufViDpLaaZiEYzBCAZnK",
+    "year": "1980",
+    "developer": "Namco",
+    "genre": "Maze, Arcade",
+    "emojis": ["👻", "👻", "👻", "👻", "🟡", "🍒"]
+  },
+  {
+    "title": "The Secret of Monkey Island",
+    "aliases": ["The Secret of Monkey Island: Special Edition"],
+    "id": "w5MGZE6f2Fs8Ey7LAj4CWC",
+    "year": "1990",
+    "developer": "Lucasfilm Games",
+    "genre": "Point & Click, Adventure",
+    "emojis": ["🏴‍☠️", "🐒", "🏝️"]
+  },
+  {
+    "title": "Spyro the Dragon",
+    "id": "itgAjjXYDFK5koERsQvNYs",
+    "year": "1998",
+    "developer": "Insomniac Games",
+    "genre": "Adventure, Platformer",
+    "emojis": ["🟪", "🐉", "🔥", "💎"]
+  },
+  {
+    "title": "Prince of Persia: The Sands of Time",
+    "aliases": ["Prince of Persia"],
+    "id": "wYH1DWfRKaMsiUH4NMDu8E",
+    "year": "2003",
+    "developer": "Ubisoft Montreal",
+    "genre": "Action, Adventure, Platformer",
+    "emojis": ["🕌", "🤴🏽", "🏃🏽‍♂️", "🧗🏽‍♂️", "⏳", "⏪"]
+  },
+  {
+    "title": "Half-Life",
+    "id": "9sk1GZ5Y5SeCfUA3P95dQy",
+    "year": "1998",
+    "developer": "Valve",
+    "genre": "Shooter",
+    "emojis": ["👨‍🔬", "🧔", "👓", "🔧", "👽", "🦀"]
+  },
+  {
+    "title": "Animal Crossing: New Horizons",
+    "id": "qFXt4Te5VhHSPc5D3byAkm",
+    "year": "2020",
+    "developer": "Nintendo",
+    "genre": "Social simulation",
+    "emojis": ["🐶", "🐵", "🐴", "📋", "🏘️", "🏝️"]
+  },
+  {
+    "title": "Horizon Zero Dawn",
+    "aliases": ["Horizon Zero Dawn Complete Edition"],
+    "id": "vnSX9kYwSfZwVUnFsTzCT1",
+    "year": "2017",
+    "developer": "Guerrilla Games",
+    "genre": "Action, RPG",
+    "emojis": ["👩🏻‍🦰", "🏹", "🤖", "🦕"]
+  },
+  {
+    "title": "Left 4 Dead",
+    "id": "2kjrEt8bpHKL29vtCizjWj",
+    "year": "2008",
+    "developer": "Valve",
+    "genre": "Shooter",
+    "emojis": ["👨🏻‍🦳", "👨🏿‍🦲", "👩🏻", "🧔🏻", "🔫", "🧟"]
+  },
+  {
+    "title": "Dishonored",
+    "aliases": ["Dishonored Definitive Edition"],
+    "id": "kToEjzZnjjQvRPQ2JbYsrs",
+    "year": "2012",
+    "developer": "Arkane Studios",
+    "genre": "Action, Stealth",
+    "emojis": ["👸🏻", "💀", "👧🏻", "🧔🏻", "🤿", "🗡️"]
+  },
+  {
+    "title": "Mirror's Edge",
+    "id": "mZgjrjqhn2hiKeMhwtKWyf",
+    "year": "2008",
+    "developer": "DICE",
+    "genre": "Action, Adventure, Platformer",
+    "emojis": ["🏙️", "🪞", "👩🏻", "🏃🏻‍♀️", "🧗🏻‍♀️"]
+  },
+  {
+    "title": "Sonic the Hedgehog",
+    "id": "a5at2dJYqdJcePa7jVRj9T",
+    "year": "1991 ",
+    "developer": "Sonic Team",
+    "genre": "Platformer",
+    "emojis": ["🦔", "⏩"]
+  },
+  {
+    "title": "A Hat in Time",
+    "id": "eGuWymssCmv47YDEWTFRPV",
+    "year": "2017",
+    "developer": "Gears for Breakfast",
+    "genre": "Platformer",
+    "emojis": ["👧", "🎩", "☂️", "🕰️"]
+  },
+  {
+    "title": "Mass Effect",
+    "id": "2gKyZ5jmqo7zFkh1VMnAji",
+    "year": "2007",
+    "developer": "BioWare",
+    "genre": "Action, RPG",
+    "emojis": ["🌌", "🚀", "👨‍🚀", "💞", "👽"]
+  },
+  {
+    "title": "Night in the Woods",
+    "id": "rJSB58MDn12mokB1maNBxm",
+    "year": "2017",
+    "developer": "Infinite Fall",
+    "genre": "Adventure, Narrative, Indie",
+    "emojis": ["😼", "🌃", "🌙", "🌳", "🍂", "🎸"]
+  },
+  {
+    "title": "A Plague Tale: Innocence",
+    "id": "ofVrrvMQiHawpkJ7G5deBo",
+    "year": "2019",
+    "developer": "Asobo Studio",
+    "genre": "Adventure, Stealth",
+    "emojis": ["🐀", "🐀", "💀", "🦠", "💨", "👩‍👦"]
+  },
+  {
+    "title": "Splatoon",
+    "aliases": ["Splatoon 2"],
+    "id": "7FwDUQP1hvGmanUDeYmbWS",
+    "year": "2015",
+    "developer": "Nintendo",
+    "genre": "Shooter",
+    "emojis": ["🐙", "👦", "🔫", "🎨", "🔫", "👧"]
+  },
+  {
+    "title": "The Forest",
+    "id": "f7Sbj2TsBq1uRrrTMvv4N5",
+    "year": "2018",
+    "developer": "Endnight Games",
+    "genre": "Survival horror",
+    "emojis": ["🛬", "💥", "🌳", "🌳", "🧟", "🍖"]
+  },
+  {
+    "title": "Professor Layton and the Curious Village",
+    "id": "69nYYvzfDwgv9NjuMagF8V",
+    "year": "2007",
+    "developer": "Level-5",
+    "genre": "Puzzle, Adventure",
+    "emojis": ["🕵🏻", "🎩", "👦🏻", "🧩", "🤔", "🏘️"]
+  },
+  {
+    "title": "SPORE",
+    "id": "iEscEV4V6pJ7YaokYhYDrQ",
+    "year": "2008",
+    "developer": "Maxis",
+    "genre": "Simulation, Strategy",
+    "emojis": ["🧬", "🦠", "🐟", "🦎", "👽", "🚀"]
+  },
+  {
+    "title": "Dwarf Fortress",
+    "id": "7HsmVMPrFUaB3tPSfDUCRA",
+    "year": "2006",
+    "developer": "Bay 12 Games",
+    "genre": "Management, Simulation, Indie",
+    "emojis": ["🧔", "🧔", "⛏️", "🏔️", "🏰"]
+  },
+  {
+    "title": "Beyond Good & Evil",
+    "aliases": ["Beyond Good & Evil HD"],
+    "id": "sRhKgYGro82VcAKMgqPykd",
+    "year": "2003",
+    "developer": "Ubisoft",
+    "genre": "Action, Adventure",
+    "emojis": ["🟩", "👩🏻", "📷", "🐷", "👼🏻", "👿"]
+  },
+  {
+    "title": "The Legend of Zelda: Oracle of Seasons",
+    "id": "pSnucRPxoduHSBptPDyakN",
+    "year": "2001",
+    "developer": "Flagship",
+    "genre": "Action, Adventure",
+    "emojis": ["🧝", "🔮", "❄️", "🌸", "☀️", "🍂"]
+  },
+  {
+    "title": "Tetris",
+    "id": "oELieioYsx6Y5WidA3qdwi",
+    "year": "1985",
+    "developer": "Alexey Pajitnov",
+    "genre": "Puzzle",
+    "emojis": ["🕹️", "🟨", "🧱", "🧮"]
+  },
+  {
+    "title": "The Witcher",
+    "aliases": ["The Witcher: Enhanced Edition Director's Cut"],
+    "id": "fAMbjPT38fpierDde37vdx",
+    "year": "2007",
+    "developer": "CD Projekt Red",
+    "genre": "Action, RPG",
+    "emojis": ["👩‍🦳", "🐺", "⚔️", "🧌", "👹", "⚗️"]
+  },
+  {
+    "title": "Five Nights at Freddy's",
+    "id": "tyWdLY7RdgDDxWUH84VD3E",
+    "year": "2014",
+    "developer": "Scott Cawthon",
+    "genre": "Survival horror, Point & Click",
+    "emojis": ["🍕", "🎥", "🧸", "🎩", "😱"]
+  },
+  {
+    "title": "Metal Gear Solid",
+    "id": "gcEuhYyrFhfwSNNM2F6rxg",
+    "year": "1998",
+    "developer": "Konami",
+    "genre": "Action, Stealth",
+    "emojis": ["📦", "🤫", "⚙️"]
+  },
+  {
+    "title": "Factorio",
+    "id": "vF9jiC3ctN6woHFf17bwto",
+    "year": "2020",
+    "developer": "Wube Software",
+    "genre": "Management, Simulation",
+    "emojis": ["👾", "🏭", "🏗", "🧱", "📈", "🚀"]
+  },
+  {
+    "title": "Street Fighter",
+    "id": "qSeM6siWCgvrMWvZb4oTNv",
+    "year": "1987",
+    "developer": "Capcom",
+    "genre": "Fighting",
+    "emojis": ["🥋", "🕹️", "⬇️", "↘️", "➡️", "🔥"]
+  },
+  {
+    "title": "Snake",
+    "id": "8LcnMTgUSf8u21h5ib6hHz",
+    "year": "1976",
+    "developer": "Gremlin",
+    "genre": "Arcade",
+    "emojis": ["🐍", "🍎"]
+  },
+  {
+    "title": "Worms",
+    "id": "ihFM4YbhhMYVhmPQ8yJGJ5",
+    "year": "1995",
+    "developer": "Team17",
+    "genre": "Turn-based strategy",
+    "emojis": ["🪱", "🪖", "🔫", "💣", "🧨", "💥"]
+  },
+  {
+    "title": "Heavy Rain",
+    "id": "dQXwL8VjT1JpVePDxdzyhs",
+    "year": "2010",
+    "developer": "Quantic Dream",
+    "genre": "Adventure, Narrative",
+    "emojis": ["🧔🏻", "🕵🏻", "🦢", "⚖️", "🌧️"]
+  },
+  {
+    "title": "Spelunky",
+    "aliases": ["Spelunky 2"],
+    "id": "uqJnAabccmdqvNdS5ofDg5",
+    "year": "2008",
+    "developer": "Derek Yu",
+    "genre": "Platformer, Roguelike",
+    "emojis": ["🤠", "🐍", "🦇", "🏺", "💰"]
+  },
+  {
+    "title": "PAYDAY: The Heist",
+    "aliases": ["PAYDAY 2"],
+    "id": "eAZ6d6TnWyfxPb5Hku8UKo",
+    "year": "2011",
+    "developer": "Overkill Software",
+    "genre": "Shooter",
+    "emojis": ["🤡", "😠", "🔫", "🏦", "💵", "💰"]
+  },
+  {
+    "title": "Tomb Raider",
+    "id": "uA1HDdGTxN9rYDfeJDwY55",
+    "year": "1996",
+    "developer": "Core Design",
+    "genre": "Action, Adventure",
+    "emojis": ["👩🏻", "🔫", "🗺️", "🪦", "⚱️"]
   }
 ]

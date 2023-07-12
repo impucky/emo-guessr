@@ -17,7 +17,6 @@ const ResetDialog = ({ isOpen, setIsOpen }) => {
       <div className="fixed inset-0 flex items-center justify-center p-4">
         <Dialog.Panel className="bg-surface0 dark:bg-mantle shadow-md rounded-xl p-4 flex gap-4 flex-col items-center justify-center text-center">
           <Dialog.Description>Resetting all your guesses, are you sure ?</Dialog.Description>
-
           <div className="w-full flex flex-wrap justify-around font-semibold">
             <button
               className="w-32 text-yellow hover:brightness-110 outline outline-2 outline-yellow p-2 rounded-xl transition"

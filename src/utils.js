@@ -10,12 +10,12 @@ export const searchGames = async (query) => {
   }
 };
 
-export const guessGame = (id, title) => {
+export const isValidGuess = (id, title) => {
   const game = gameData.find((game) => game.id === id);
 
   if (game.title === title || game.aliases?.includes(title)) {
-    return { isValid: true };
-  } else return { isValid: false };
+    return true;
+  } else return false;
 };
 
 const randomInArr = (arr) => arr[Math.floor(Math.random() * arr.length)];

@@ -9,12 +9,12 @@ import Emojis from "@/components/Emojis";
 import NewGameButton from "@/components/NewGameButton";
 import ProgressButton from "@/components/ProgressButton";
 import HintPanel from "@/components/HintPanel";
-import { guessGame, saveGame } from "@/utils";
+import { isValidGuess, saveGame } from "@/utils";
 
 export default function EmoGuess({ params }) {
   const [emojis, setEmojis] = useState([]);
   const [currentGame, setCurrentGame] = useState({});
-  const [validGuess, setValidGuess] = useState(null);
+  const [guessStatus, setGuessStatus] = useState("none");
 
   useEffect(() => {
     const currentGame = gameData.find((g) => g.id === params.id);
@@ -23,12 +23,15 @@ export default function EmoGuess({ params }) {
   }, [params]);
 
   const tryGuess = (title) => {
-    const { isValid } = guessGame(params.id, title);
-    if (isValid) {
-      setValidGuess(true);
-    } else {
-      setValidGuess(false);
-    }
+    const isValid = isValidGuess(params.id, title);
+    setGuessStatus("pending");
+    setTimeout(() => {
+      if (isValid) {
+        setGuessStatus("valid");
+      } else {
+        setGuessStatus("wrong");
+      }
+    }, 500);
     saveGame(params.id, isValid);
   };
 
@@ -46,11 +49,10 @@ export default function EmoGuess({ params }) {
       leaveFrom="opacity-100"
       leaveTo="opacity-0"
     >
-      <h2 className="text-2xl my-4">Can you guess the video game behind these emojis ?</h2>
-      <div className="h-8">
-        {validGuess === true ? "Correct !" : validGuess === false ? "Wrong :(" : ""}
-      </div>
-      <Emojis emojis={emojis} validGuess={validGuess} />
+      <h2 className="text-xl sm:text-2xl my-8 text-center">
+        Can you guess the video game behind these emojis ?
+      </h2>
+      <Emojis emojis={emojis} status={guessStatus} />
       <GameSearch tryGuess={tryGuess} />
       <div className="flex flex-col items-center gap-2">
         <NewGameButton currentGameId={params.id} />
