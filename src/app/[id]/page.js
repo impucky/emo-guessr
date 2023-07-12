@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Transition } from "@headlessui/react";
 
 import gameData from "../../data/game-data.json";
 import GameSearch from "@/components/GameSearch";
@@ -17,6 +16,7 @@ export default function EmoGuess({ params }) {
   const [guessStatus, setGuessStatus] = useState("none");
 
   useEffect(() => {
+    setEmojis([]);
     const currentGame = gameData.find((g) => g.id === params.id);
     setCurrentGame(currentGame);
     setEmojis(currentGame.emojis);
@@ -38,17 +38,7 @@ export default function EmoGuess({ params }) {
   const hints = (({ year, genre, developer }) => ({ year, genre, developer }))(currentGame);
 
   return (
-    <Transition
-      show={emojis.length > 0}
-      appear="true"
-      className="relative z-0 h-full flex flex-col items-center justify-start gap-2 py-4"
-      enter="transition-opacity duration-500"
-      enterFrom="opacity-0"
-      enterTo="opacity-100"
-      leave="transition-opacity duration-150"
-      leaveFrom="opacity-100"
-      leaveTo="opacity-0"
-    >
+    <div className="relative z-0 h-full flex flex-col items-center justify-start gap-2 py-4">
       <h2 className="text-xl sm:text-2xl my-8 text-center">
         Can you guess the video game behind these emojis ?
       </h2>
@@ -59,6 +49,6 @@ export default function EmoGuess({ params }) {
         <ProgressButton />
         <HintPanel hints={hints} />
       </div>
-    </Transition>
+    </div>
   );
 }

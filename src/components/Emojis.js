@@ -43,7 +43,9 @@ const Emojis = ({ emojis, status }) => {
       >
         {emojis.map((emoji, i) => {
           return (
-            <Transition.Child
+            <Transition
+              appear
+              show={emojis.length > 0}
               key={emoji}
               as="span"
               style={{ transitionDelay: `${(i + 1) * 150}ms` }}
@@ -56,7 +58,7 @@ const Emojis = ({ emojis, status }) => {
               leaveTo="opacity-0"
             >
               {emoji}
-            </Transition.Child>
+            </Transition>
           );
         })}
       </Transition>
