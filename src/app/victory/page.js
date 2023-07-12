@@ -28,7 +28,7 @@ export default function Victory() {
   useEffect(() => {
     if (!isWinner) return;
     const emojis = gameData.reduce((acc, game) => {
-      return acc.push(game.emojis);
+      return acc.concat(game.emojis);
     }, []);
     const options = { emojis, emojiSize: 16, confettiNumber: 150 };
     const jsConfetti = new JSConfetti();
