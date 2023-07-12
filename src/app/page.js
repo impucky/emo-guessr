@@ -3,6 +3,7 @@
 import { redirect } from "next/navigation";
 import { useState, useEffect } from "react";
 
+import LoadingDots from "@/components/LoadingDots";
 import { getRandomGameId } from "@/utils";
 
 export default function Home() {
@@ -13,7 +14,11 @@ export default function Home() {
   }, []);
 
   if (!mounted || typeof window === "undefined") {
-    return null;
+    return (
+      <div className="w-full h-full grid items-center text-3xl">
+        <LoadingDots />
+      </div>
+    );
   }
 
   redirect(getRandomGameId());

@@ -7,6 +7,8 @@ import JSConfetti from "js-confetti";
 import LoadingDots from "@/components/LoadingDots";
 
 const Emojis = ({ emojis, status }) => {
+  useEffect(() => {}, []);
+
   useEffect(() => {
     if (status === "valid") {
       const jsConfetti = new JSConfetti();
@@ -30,38 +32,31 @@ const Emojis = ({ emojis, status }) => {
         {status === "valid" && <span className="text-green">{"CORRECT! 🙀"}</span>}
         {status === "wrong" && <span className="text-red">{"WRONG... 😿"}</span>}
       </div>
-      <Transition
-        appear
-        show={emojis.length > 0}
+      <div
         className={`flex items-center justify-center m-2 p-4 w-fit rounded-xl bg-surface0 cursor-default text-center text-4xl shadow-md transition-[outline] ${statusStyle}`}
-        enter="transition-opacity duration-500"
-        enterFrom="opacity-0"
-        enterTo="opacity-100"
-        leave="transition-opacity duration-150"
-        leaveFrom="opacity-100"
-        leaveTo="opacity-0"
       >
-        {emojis.map((emoji, i) => {
-          return (
-            <Transition
-              appear
-              show={emojis.length > 0}
-              key={emoji}
-              as="span"
-              style={{ transitionDelay: `${(i + 1) * 150}ms` }}
-              className="min-w-[40px]"
-              enter={`transition-opacity duration-500`}
-              enterFrom="opacity-0"
-              enterTo="opacity-100"
-              leave="transition-opacity duration-150"
-              leaveFrom="opacity-100"
-              leaveTo="opacity-0"
-            >
-              {emoji}
-            </Transition>
-          );
-        })}
-      </Transition>
+        {emojis.length > 0 &&
+          emojis.map((emoji, i) => {
+            return (
+              <Transition
+                appear
+                show={true}
+                key={emoji}
+                as="span"
+                style={{ transitionDelay: `${(i + 1) * 150}ms` }}
+                className="min-w-[40px] duration-500"
+                enter="transition-opacity"
+                enterFrom="opacity-0"
+                enterTo="opacity-100"
+                leave="transition-opacity"
+                leaveFrom="opacity-100"
+                leaveTo="opacity-0"
+              >
+                {emoji}
+              </Transition>
+            );
+          })}
+      </div>
     </div>
   );
 };

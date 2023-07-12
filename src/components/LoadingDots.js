@@ -1,5 +1,5 @@
 const LoadingDots = () => (
-  <div className="text-lg text-center">
+  <div className="text-center">
     {["🎮", "🎮", "🎮"].map((dot, i) => {
       return (
         <span

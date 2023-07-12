@@ -16,7 +16,6 @@ export default function EmoGuess({ params }) {
   const [guessStatus, setGuessStatus] = useState("none");
 
   useEffect(() => {
-    setEmojis([]);
     const currentGame = gameData.find((g) => g.id === params.id);
     setCurrentGame(currentGame);
     setEmojis(currentGame.emojis);
