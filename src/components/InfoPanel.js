@@ -5,7 +5,7 @@ import { Dialog } from "@headlessui/react";
 import { InfoEmpty } from "iconoir-react";
 
 const InfoPanel = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
