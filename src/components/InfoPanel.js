@@ -14,10 +14,11 @@ const InfoPanel = () => {
       </button>
       <Dialog open={isOpen} onClose={() => setIsOpen(false)} className="relative">
         <div className="fixed inset-0" aria-hidden="true" />
-        <Dialog.Panel className="fixed top-20 left-2 bg-surface0 max-w-[12rem] shadow-md rounded-xl p-2 text-sm">
+        <Dialog.Panel className="fixed top-20 left-2 bg-surface0 max-w-[12rem] shadow-md rounded-xl p-2 text-sm text-center">
           <Dialog.Description>
-            If you have suggestions for new games or want to complain about existing ones, you can
-            find me on discord: <span className="text-blue">@pucky</span>
+            Suggestions, bugs, complaints:
+            <br />
+            <span className="text-blue">@pucky</span> on discord
           </Dialog.Description>
         </Dialog.Panel>
       </Dialog>
