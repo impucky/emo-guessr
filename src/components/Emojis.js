@@ -5,8 +5,6 @@ import { Transition } from "@headlessui/react";
 import JSConfetti from "js-confetti";
 
 const Emojis = ({ emojis, status }) => {
-  useEffect(() => {}, []);
-
   useEffect(() => {
     if (status === "valid") {
       const jsConfetti = new JSConfetti();
@@ -30,15 +28,15 @@ const Emojis = ({ emojis, status }) => {
         {status === "valid" && <span className="text-green">CORRECT! 🙀</span>}
         {status === "wrong" && <span className="text-red">WRONG... 😿</span>}
       </div>
-      <div
-        className={`flex items-center justify-center m-2 p-4 w-fit rounded-xl bg-surface0 cursor-default text-center text-4xl shadow-md transition-[outline] ${statusStyle}`}
-      >
-        {emojis.length > 0 &&
-          emojis.map((emoji, i) => {
+      {emojis.length > 0 && (
+        <div
+          className={`flex items-center justify-center m-2 p-4 w-fit rounded-xl bg-surface0 cursor-default text-center text-4xl shadow-md transition-[outline] ${statusStyle}`}
+        >
+          {emojis.map((emoji, i) => {
             return (
               <Transition
                 appear
-                show={true}
+                show
                 key={emoji}
                 as="span"
                 style={{ transitionDelay: `${(i + 1) * 150}ms` }}
@@ -54,7 +52,8 @@ const Emojis = ({ emojis, status }) => {
               </Transition>
             );
           })}
-      </div>
+        </div>
+      )}
     </div>
   );
 };

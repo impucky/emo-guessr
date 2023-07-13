@@ -16,8 +16,8 @@ const InfoPanel = () => {
         <div className="fixed inset-0" aria-hidden="true" />
         <Dialog.Panel className="fixed top-20 left-2 bg-surface0 max-w-[12rem] shadow-md rounded-xl p-2 text-sm">
           <Dialog.Description>
-            If you have suggestions for new games or want to complain about an existing one, you can
-            find me on Discord <span className="text-blue">@pucky</span>
+            If you have suggestions for new games or want to complain about existing ones, you can
+            find me on discord: <span className="text-blue">@pucky</span>
           </Dialog.Description>
         </Dialog.Panel>
       </Dialog>

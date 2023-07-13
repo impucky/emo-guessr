@@ -30,7 +30,7 @@
     "year": "2018",
     "developer": "Santa Monica Studio",
     "genre": "Action, Adventure",
-    "emojis": ["🪓", "👨🏻‍🦲", "🧔🏻", "😡"]
+    "emojis": ["🪓", "👨🏻‍🦲", "🧔🏻", "💪🏻", "😡"]
   },
   {
     "title": "Portal",
@@ -118,7 +118,7 @@
     "year": "2019",
     "developer": "Mobius Digital",
     "genre": "Indie, Puzzle, Adventure",
-    "emojis": ["🚀", "🪐", "⌛", "💥"]
+    "emojis": ["🚀", "🪐", "⌛", "☀️", "💥", "🔁"]
   },
   {
     "title": "Super Mario Galaxy",
@@ -126,7 +126,7 @@
     "year": "2007",
     "developer": "Nintendo",
     "genre": "Platformer",
-    "emojis": ["🍄", "🌌", "⭐"]
+    "emojis": ["🍄", "⭐", "🌌"]
   },
   {
     "title": "Fallout: New Vegas",
@@ -195,7 +195,7 @@
     "id": "crtpY4ArBLE88mFs7HqaLo",
     "year": "2015",
     "developer": "Psyonix",
-    "genre": "Sports, Arcade",
+    "genre": "Sport, Arcade",
     "emojis": ["🥅", "⚽", "🏎️", "🚀"]
   },
   {
@@ -625,5 +625,239 @@
     "developer": "Core Design",
     "genre": "Action, Adventure",
     "emojis": ["👩🏻", "🔫", "🗺️", "🪦", "⚱️"]
+  },
+  {
+    "title": "L.A. Noire",
+    "id": "omUAfCCk7n6ZPAwfSrppAe",
+    "year": "2011",
+    "developer": "Team Bondi",
+    "genre": "Action, Adventure",
+    "emojis": ["🕵️", "🤔", "🔵", "✖️"]
+  },
+  {
+    "title": "Deus Ex",
+    "aliases": ["Deus Ex: Game of the Year Edition"],
+    "id": "adgXktCxKZvroWDfN1Wfaf",
+    "year": "2000",
+    "developer": "Ion Storm",
+    "genre": "RPG, Shooter, Immersive Sim",
+    "emojis": ["🕵️‍♂️", "🧥", "🕶️", "👨‍💻", "🦾", "🔫"]
+  },
+  {
+    "title": "Sam & Max Hit the Road",
+    "id": "mwGVSrJBPa9NiXFgbx8LFA",
+    "year": "1993",
+    "developer": "LucasArts",
+    "genre": "Point & Click, Adventure",
+    "emojis": ["🐶", "🐰", "🕵️‍♂️", "🧩", "💨", "🚗"]
+  },
+  {
+    "title": "Vampire: The Masquerade - Bloodlines",
+    "id": "qmNAYsTRzeW8THdgRze6Xc",
+    "year": "2004",
+    "developer": "Troika Games",
+    "genre": "Action, RPG",
+    "emojis": ["🧛‍♂️", "🧛‍♀️", "🎭", "🩸", "🌃"]
+  },
+  {
+    "title": "Fortnite",
+    "id": "2ZvjWbHvcj2qgeapfu1PpA",
+    "year": "2017",
+    "developer": "Epic Games",
+    "genre": "Shooter, Battle Royale",
+    "emojis": ["🔨", "🧱", "🔫", "💥", "🕺", "💃"]
+  },
+  {
+    "title": "Diablo",
+    "aliases": ["Diablo II", "Diablo III", "Diablo IV"],
+    "id": "cWqtymgSziCbV33SF98xrB",
+    "year": "1997",
+    "developer": "Blizzard North",
+    "genre": "Action, RPG",
+    "emojis": ["🖱️", "⚔️", "👹", "😈", "🔥", "🏰"]
+  },
+  {
+    "title": "Phasmobia",
+    "id": "9SB2EmYW3MJfyrfpMKWTNa",
+    "year": "2020",
+    "developer": "Kinetic Games",
+    "genre": "Horror, Multiplayer",
+    "emojis": ["🚚", "🕵️", "📟", "🗣️", "👻", "🏡"]
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "id": "vyMrMEjNKCLjnJ6skgsJt8",
+    "year": "2018",
+    "developer": "Rockstar Studios",
+    "genre": "Action, Adventure",
+    "emojis": ["🤠", "🔫", "🐎", "💰", "🏕️", "🏞️"]
+  },
+  {
+    "title": "Resident Evil: Village",
+    "id": "cyDtf5HPydEtusvRjuVYxB",
+    "year": "2021",
+    "developer": "Capcom",
+    "genre": "Survival horror",
+    "emojis": ["🧛🏻‍♀️", "💃", "👒", "😳", "🧟", "🏘️"]
+  },
+  {
+    "title": "Subnautica",
+    "id": "4PX6keAYBekTq7mwBcpMNz",
+    "year": "2018",
+    "developer": "Unknown Worlds Entertainment",
+    "genre": "Action, Adventure, Survival",
+    "emojis": ["🪐", "🌊", "🤿", "🐟", "👽", "🚀"]
+  },
+  {
+    "title": "XCOM: Enemy Unknown",
+    "aliases": ["XCOM: Enemy Unknown Complete Pack", "XCOM 2"],
+    "id": "cEkY9hTMWN8VbtWoodxoVV",
+    "year": "2012",
+    "developer": "Firaxis Games",
+    "genre": "Turn-based tactics",
+    "emojis": ["🌍", "🛸", "👽", "⚔️", "🔫", "🎲"]
+  },
+  {
+    "title": "Stardew Valley",
+    "id": "eGzN1jb4bG5DY1g1rDG2HD",
+    "year": "2016",
+    "developer": "ConcernedApe",
+    "genre": "Simulation, RPG, Indie",
+    "emojis": ["👩‍🌾", "🌾", "🐓", "🎣", "⛏️", "🌟"]
+  },
+  {
+    "title": "Terraria",
+    "id": "dWHsZYE3JmuwNhw1WZhi6S",
+    "year": "2011",
+    "developer": "Re-Logic",
+    "genre": "Action, Adventure, Sandbox",
+    "emojis": ["🌎", "⛏️", "🧱", "⚔️", "👾", "👁️"]
+  },
+  {
+    "title": "Valheim",
+    "id": "7p4zMgfZN2BrEBBAJkxdag",
+    "year": "2021",
+    "developer": "Iron Gate Studio",
+    "genre": "Survival, Sandbox",
+    "emojis": ["🏹", "🐗", "⚔️", "👹", "🧱", "⛵"]
+  },
+  {
+    "title": "Grand Theft Auto",
+    "aliases": [
+      "Grand Theft Auto 2",
+      "Grand Theft Auto III",
+      "Grand Theft Auto: Vice City",
+      "Grand Theft Auto: San Andreas",
+      "Grand Theft Auto IV",
+      "Grand Theft Auto V"
+    ],
+    "id": "1r9hNviz4f8wnA2Y8YLPjw",
+    "year": "1997",
+    "developer": "DMA Design (Rockstar North)",
+    "genre": "Action, Adventure",
+    "emojis": ["🏙️", "🚗", "🚓", "💥", "🔫", "💰"]
+  },
+  {
+    "title": "Tony Hawk's Pro Skater",
+    "aliases": [
+      "Tony Hawk's Pro Skater 1 + 2",
+      "Tony Hawk’s Pro Skater HD",
+      "Tony Hawk's Pro Skater 2",
+      "Tony Hawk's Pro Skater 3",
+      "Tony Hawk's Pro Skater 4"
+    ],
+    "id": "oyHngBuLXL3inPnLzKwF5R",
+    "year": "1999",
+    "developer": "Neversoft",
+    "genre": "Sport",
+    "emojis": ["🛹", "🕹️", "🎵", "🏆", "📼"]
+  },
+  {
+    "title": "Metroid Prime",
+    "id": "2KQfnro5suw6x7tmjUVmKH",
+    "year": "2002",
+    "developer": "Retro Studios",
+    "genre": "Action, Adventure",
+    "emojis": ["🪐", "🚀", "👱🏻‍♀️", "👩🏻‍🚀", "🔫", "👾"]
+  },
+  {
+    "title": "Gears of War",
+    "aliases": [
+      "Gears of War 2",
+      "Gears of War 3",
+      "Gears of War 4",
+      "Gears of War: Ultimate Edition"
+    ],
+    "id": "3ZxcgMYhNpwjsGLF7phyvs",
+    "year": "2006",
+    "developer": "Epic Game",
+    "genre": "Shooter",
+    "emojis": ["😠", "💪", "🔫", "⛓️", "👾", "⚙️"]
+  },
+  {
+    "title": "Fallout 4",
+    "id": "4zRjvBGVBohxTNxWzCKmRT",
+    "year": "2015",
+    "developer": "Bethesda Game Studios",
+    "genre": "Action, RPG",
+    "emojis": ["👫", "👶", "☢️", "🥶", "⚙️", "⏳"]
+  },
+  {
+    "title": "Rock Band",
+    "aliases": ["Rock Band 2", "Rock Band 3", "ROCK BAND 4"],
+    "id": "buGRa3k4Ck1nvF2wZyBoRK",
+    "year": "2007",
+    "developer": "Harmonix",
+    "genre": "Rhythm",
+    "emojis": ["🎸", "🥁", "🎤", "🎶", "🤘"]
+  },
+  {
+    "title": "Guitar Hero",
+    "aliases": [
+      "Guitar Hero II",
+      "Guitar Hero 3: Legends of Rock",
+      "Guitar Hero World Tour",
+      "Guitar Hero 5"
+    ],
+    "id": "3d3NUj37qSng6adV1tcnGw",
+    "year": "2005",
+    "developer": "Harmonix",
+    "genre": "Rhythm",
+    "emojis": ["🎸", "🟩", "🟥", "🟨", "🟦", "🟧"]
+  },
+  {
+    "title": "Castlevania",
+    "aliases": ["Castlevania HD"],
+    "id": "cT3hBhcaBhMbz7GJLUh7yh",
+    "year": "1986",
+    "developer": "Konami",
+    "genre": "Action, Adventure, Platformer",
+    "emojis": ["👱🏻‍♂️", "🏰", "⚔️", "🧛", "🦇", "🍗"]
+  },
+  {
+    "title": "Shadow of the Colossus",
+    "aliases": ["Shadow of the Colossus (2011)", "Shadow of the Colossus (2018)"],
+    "id": "3HGSxs4NUtQZGJv5gigWyS",
+    "year": "2005",
+    "developer": "Japan Studio, Team Ico",
+    "genre": "Action, Adventure",
+    "emojis": ["👦🏻", "🐎", "🏹", "🗡️", "🧗🏻‍♂️", "🗿"]
+  },
+  {
+    "title": "Rayman",
+    "aliases": ["Rayman Legends", "Rayman Origins"],
+    "id": "aifzGaZbFTPtN75mxsM9Lr",
+    "year": "1995",
+    "developer": "Ubisoft",
+    "genre": "Platformer",
+    "emojis": ["👞", "👞", "🟪", "👱‍♂️", "💨", "🤜🏻"]
+  },
+  {
+    "title": "Overwatch",
+    "id": "ermciDUhvr9BH4AY82qxAx",
+    "year": "2016",
+    "developer": "Blizzard Entertainment",
+    "genre": "Multiplayer, Shooter",
+    "emojis": ["👀", "🌍", "🛡️", "🔫", "💥", "🏆"]
   }
 ]
