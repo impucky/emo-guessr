@@ -1,10 +1,9 @@
-"use client";
-
 import "./globals.css";
 import { Open_Sans } from "next/font/google";
 
 export const metadata = {
   title: "🎮EMOGUESSR🎮",
+  description: "Can you guess the video game behind these emojis ?",
 };
 
 import { Providers } from "./providers";
