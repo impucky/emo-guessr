@@ -28,16 +28,23 @@ const Emojis = ({ emojis, status }) => {
         {status === "valid" && <span className="text-green">CORRECT! 🙀</span>}
         {status === "wrong" && <span className="text-red">WRONG... 😿</span>}
       </div>
-      {emojis.length > 0 && (
+      <Transition
+        show={emojis.length > 0}
+        appear
+        enter="transition-opacity duration-100"
+        enterFrom="opacity-0"
+        enterTo="opacity-100"
+        leave="transition-opacity duration-150"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0"
+      >
         <div
           className={`flex items-center justify-center m-2 p-4 w-fit rounded-xl bg-surface0 cursor-default text-center text-4xl shadow-md transition-[outline] ${statusStyle}`}
         >
           {emojis.map((emoji, i) => {
             return (
-              <Transition
-                appear
-                show
-                key={emoji}
+              <Transition.Child
+                key={`${emoji}${i}`}
                 as="span"
                 style={{ transitionDelay: `${(i + 1) * 150}ms` }}
                 className="min-w-[40px] duration-500"
@@ -49,11 +56,11 @@ const Emojis = ({ emojis, status }) => {
                 leaveTo="opacity-0"
               >
                 {emoji}
-              </Transition>
+              </Transition.Child>
             );
           })}
         </div>
-      )}
+      </Transition>
     </div>
   );
 };
