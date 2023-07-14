@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 import gameData from "../../data/game-data.json";
 import GameSearch from "@/components/GameSearch";
@@ -8,12 +9,14 @@ import Emojis from "@/components/Emojis";
 import NewGameButton from "@/components/NewGameButton";
 import ProgressButton from "@/components/ProgressButton";
 import HintPanel from "@/components/HintPanel";
-import { isValidGuess, saveGame } from "@/utils";
+import { isValidGuess, saveGame, getRandomGameId } from "@/utils";
 
 export default function EmoGuess({ params }) {
   const [emojis, setEmojis] = useState([]);
   const [currentGame, setCurrentGame] = useState({});
   const [guessStatus, setGuessStatus] = useState("none");
+
+  const router = useRouter();
 
   useEffect(() => {
     const currentGame = gameData.find((g) => g.id === params.id);
@@ -30,8 +33,12 @@ export default function EmoGuess({ params }) {
       } else {
         setGuessStatus("wrong");
       }
-    }, 500);
+    }, 300);
     saveGame(params.id, isValid);
+  };
+
+  const newGame = () => {
+    router.push(`/${getRandomGameId(params.id)}`);
   };
 
   const hints = (({ year, genre, developer }) => ({ year, genre, developer }))(currentGame);
@@ -44,7 +51,7 @@ export default function EmoGuess({ params }) {
       <Emojis emojis={emojis} status={guessStatus} />
       <GameSearch tryGuess={tryGuess} />
       <div className="flex flex-col items-center gap-2">
-        <NewGameButton currentGameId={params.id} />
+        <NewGameButton newGame={newGame} />
         <ProgressButton />
         <HintPanel hints={hints} />
       </div>

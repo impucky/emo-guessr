@@ -8,7 +8,7 @@ const Emojis = ({ emojis, status }) => {
   useEffect(() => {
     if (status === "valid") {
       const jsConfetti = new JSConfetti();
-      jsConfetti.addConfetti({ emojis, emojiSize: 24, confettiNumber: 50 });
+      jsConfetti.addConfetti({ emojis, emojiSize: 32, confettiNumber: 50 });
     }
   }, [status, emojis]);
 
