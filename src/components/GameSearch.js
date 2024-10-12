@@ -61,16 +61,17 @@ export default function GameSearch({ tryGuess }) {
                   static
                 >
                   <div className="max-h-[35vh] sm:max-h-none overflow-y-auto">
-                    {results.map((result) => (
-                      <Combobox.Option
-                        key={result}
-                        value={result}
-                        className="box-border cursor-pointer p-2 bg-surface0 ui-active:bg-surface2 first:border-none border-t border-crust ui-active:border-surface2"
-                        disabled={result === "..."}
-                      >
-                        {result === "..." ? <LoadingDots /> : result}
-                      </Combobox.Option>
-                    ))}
+                    {results.length &&
+                      results.map((result) => (
+                        <Combobox.Option
+                          key={result}
+                          value={result}
+                          className="box-border cursor-pointer p-2 bg-surface0 ui-active:bg-surface2 first:border-none border-t border-crust ui-active:border-surface2"
+                          disabled={result === "..."}
+                        >
+                          {result === "..." ? <LoadingDots /> : result}
+                        </Combobox.Option>
+                      ))}
                   </div>
                 </Combobox.Options>
               )}
